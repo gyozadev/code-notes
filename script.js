@@ -56,3 +56,13 @@ console.log(examReport);
 let lineBreakExample = "Wow this will \nbreak into two lines!";
 console.log(lineBreakExample);
 
+//Returns length of a string
+let txt = "123456789";
+console.log(txt.length);
+
+//Returns index of first occurance of word
+let stringToSearch = "Please find the word 'find'";
+console.log(stringToSearch.indexOf("find"));
+//Returns -1 if string is not found
+console.log(stringToSearch.indexOf("hello"));
+
